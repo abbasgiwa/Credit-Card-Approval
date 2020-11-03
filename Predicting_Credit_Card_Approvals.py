@@ -1,4 +1,3 @@
-# Import pandas
 import pandas as pd
 
 # Load dataset
@@ -99,7 +98,7 @@ print("Accuracy of logistic regression classifier: ", logreg.score(rescaledX_tes
 # Print the confusion matrix of the logreg model
 print(confusion_matrix(y_test, y_pred))
 
-# Import GridSearchCV
+# Import GridSearchCV.
 
 from sklearn.model_selection import GridSearchCV
 
